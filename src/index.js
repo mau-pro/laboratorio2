@@ -1,5 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import GameComponent from "./components/memory/GameComponent";
+import { MemoryComponent } from "./apps/memory/MemoryComponent";
 
-ReactDOM.render(<GameComponent />, document.getElementById("root"));
+ReactDOM.render(<MemoryComponent />, document.getElementById("root"));
